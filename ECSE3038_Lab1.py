@@ -1,7 +1,6 @@
 def hello():
     print("ECSE3038 - Engineering IoT Systems")
 
-hello()
 
 def validatePassword(password):
 
@@ -20,8 +19,28 @@ def validatePassword(password):
         return False
 
 
+def sumUpToN(number):
+
+    sum = 0
+
+    if number > 0:
+
+        for num in range(number):
+
+            sum += num +1 
+    
+        return sum
+
+    else: 
+        return -1
+
+
+hello()
+
 password = input("Please enter your password: ")
 
 print(validatePassword(password))
 
+number = input("Please enter a number: ")
 
+print(sumUpToN(int(number)))
