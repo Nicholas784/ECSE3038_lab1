@@ -27,7 +27,7 @@ def sumUpToN(number):
 
         for num in range(number):
 
-            sum += num +1 
+            sum += num + 1 
     
         return sum
 
